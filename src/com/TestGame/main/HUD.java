@@ -34,4 +34,20 @@ public class HUD {
         g.drawString("Score: " + score, 9, 64);
         g.drawString("Level: " + level, 10, 80);
     }
+
+    public void score(int score) {
+        this.score = score;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
 }
