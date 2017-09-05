@@ -19,6 +19,8 @@ public class HUD {
 
         greedValue = HEALTH * 2;
 
+        score++;
+
     }
 
     public void render(Graphics g) {
